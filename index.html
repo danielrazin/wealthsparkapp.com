@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WealthSpark AI - Personal Finance Coach</title>
+    <title>WealthSpark AI</title>
     <style>
         * {
             margin: 0;
@@ -11,108 +11,61 @@
             box-sizing: border-box;
         }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
-            background: #000000;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #000;
             min-height: 100vh;
             display: flex;
+            flex-direction: column;
             align-items: center;
             justify-content: center;
             color: #fff;
         }
         .container {
             text-align: center;
-            padding: 40px;
-            max-width: 600px;
+            padding: 40px 20px;
         }
         .logo {
-            width: 120px;
-            height: 120px;
-            margin-bottom: 20px;
+            width: 100px;
+            height: 100px;
+            margin-bottom: 24px;
         }
         h1 {
-            font-size: 2.5rem;
-            margin-bottom: 10px;
+            font-size: 2rem;
+            font-weight: 600;
             color: #C9A227;
+            margin-bottom: 12px;
+            letter-spacing: -0.5px;
         }
         .tagline {
-            font-size: 1.2rem;
-            color: #ccc;
-            margin-bottom: 30px;
-        }
-        .coming-soon {
-            background: rgba(201, 162, 39, 0.1);
-            border: 1px solid #C9A227;
-            border-radius: 12px;
-            padding: 20px;
-            margin-bottom: 30px;
-        }
-        .coming-soon h2 {
-            color: #C9A227;
-            margin-bottom: 10px;
-        }
-        .features {
-            text-align: left;
-            margin: 30px 0;
-        }
-        .feature {
-            display: flex;
-            align-items: center;
-            margin: 15px 0;
-            color: #ddd;
-        }
-        .feature-icon {
-            margin-right: 15px;
-            font-size: 20px;
-            color: #C9A227;
+            font-size: 1rem;
+            color: #888;
+            font-weight: 400;
         }
         .footer {
-            margin-top: 40px;
-            color: #888;
-            font-size: 0.9rem;
+            position: absolute;
+            bottom: 30px;
+            color: #444;
+            font-size: 0.8rem;
         }
-        a {
-            color: #C9A227;
+        .footer a {
+            color: #666;
             text-decoration: none;
+            margin: 0 10px;
         }
-        a:hover {
-            text-decoration: underline;
+        .footer a:hover {
+            color: #C9A227;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <img src="/logo.png" alt="WealthSpark AI Logo" class="logo">
+        <img src="/logo.png" alt="WealthSpark" class="logo">
         <h1>WealthSpark AI</h1>
-        <p class="tagline">Your AI-powered personal finance coach</p>
-
-        <div class="coming-soon">
-            <h2>Coming Soon</h2>
-            <p>We're building something amazing to help you take control of your finances.</p>
-        </div>
-
-        <div class="features">
-            <div class="feature">
-                <span class="feature-icon">&#9830;</span>
-                <span>AI-powered financial coaching with Spark</span>
-            </div>
-            <div class="feature">
-                <span class="feature-icon">&#9830;</span>
-                <span>Connect your bank accounts securely</span>
-            </div>
-            <div class="feature">
-                <span class="feature-icon">&#9830;</span>
-                <span>Learn personal finance with gamified lessons</span>
-            </div>
-            <div class="feature">
-                <span class="feature-icon">&#9830;</span>
-                <span>Track your wealth growth over time</span>
-            </div>
-        </div>
-
-        <div class="footer">
-            <p><a href="/privacy">Privacy Policy</a> | <a href="/terms">Terms of Service</a></p>
-            <p style="margin-top: 10px;">&copy; 2025 WealthSpark AI. All rights reserved.</p>
-        </div>
+        <p class="tagline">Coming Soon</p>
+    </div>
+    <div class="footer">
+        <a href="/privacy">Privacy</a>
+        <a href="/terms">Terms</a>
     </div>
 </body>
 </html>
